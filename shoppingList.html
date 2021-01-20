@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+ <script src="shoppingList.js"></script>
+
+<style>
+#contianer {
+  margin: auto;
+}
+#inputBox {
+  float:left;
+  height:200px;
+  width:200px;
+}
+#list {
+  float:left;
+  height:1000px;
+  width:800px;
+  font-size:30px;
+}
+</style>
+
+</head>
+
+<html>
+
+<body>
+
+<h1>Shopping List</h1>
+<div id="container">
+ <div id="inputBox">
+  <p>Add Item</p>
+  <input id="addItem" onclick="startListener(); this.onclick=null;" type="text">
+ </div>
+
+ <div id="list">
+ </div>
+</div>
+
+</body>
+
+</html>
